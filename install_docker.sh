@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 执行脚本
+# wget -O install_docker.sh https://raw.githubusercontent.com/tonc/tool/refs/heads/main/install_docker.sh && chmod +x install_docker.sh && ./install_docker.sh
+# curl -o install_docker.sh https://ghfast.top/https://raw.githubusercontent.com/tonc/tool/refs/heads/main/install_docker.sh && chmod +x install_docker.sh && ./install_docker.sh
+
 # 定义 Docker 和 Docker Compose 的下载地址
 DOCKER_BASE_URL="https://mirrors.163.com/docker-ce/linux/static/stable"
 DOCKER_COMPOSE_BASE_URL="https://ghfast.top/https://github.com/docker/compose/releases/download"
